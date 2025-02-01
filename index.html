@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="profile-card">
+      <img
+        src="./img/IMG_5096.jpg"
+        alt="Profile Picture"
+        data-testid="profilePicture"
+        class="profile-picture"
+      />
+      <h2 data-testid="fullName">Ayomide Balogun</h2>
+      <h3 data-testid="jobTitle">Front-End Developer</h3>
+      <p data-testid="shortBio">
+        Passionate developer with a love for creating interactive web
+        applications.
+      </p>
+      <p data-testid="currentLocation">Lagos, Nigeria</p>
+      <a href="mailto:bayomide247@gmail.com" data-testid="emailAddress"
+        >bayomide247@gmail.com</a
+      >
+      <div class="social-links" data-testid="socialLinks">
+        <a
+          href="https://www.linkedin.com/in/ayomide-balogun-1aa19b177/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/Ayomide247" target="_blank">GitHub</a>
+        <a href="https://x.com/Balogun95823457" target="_blank">Twitter</a>
+      </div>
+      <p data-testid="currentTimeUTC" id="utc-time"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
